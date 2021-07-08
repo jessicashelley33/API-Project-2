@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #14465f;
+
+}
+
+.hidden{
+    display:none;
+}
+/* 
+    Nav Section
+*/
+.navbar{
+    background-color:#195877 ;
+}
+
+.navColorBrand{
+    color: #baccd6;
+    font-size: 24px;
+    
+}
+
+.navColorBrand:hover,
+.navColor:hover{
+    color: #5e8a9f;
+    
+}
+
+.navColorBrand:visited
+.navColor:visited{
+    color: #0f3447 ;
+}
+
+.navColor{
+    color: #baccd6;
+    font-size: 18px;
+    border-bottom: solid 2px #759aad;
+}
+
+/* 
+    Hero Section
+    Photo by Pok Rie from Pexels - https://www.pexels.com/photo/stone-formation-near-ocean-321474/
+*/
+
+.heroImage {
+    background-image: url("IMG/heroImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    min-width: 30vw;
+    min-height: 30vh;
+    padding: 20%;
+    
+}
+.hero-text{
+    
+    color:#d1dde3;
+    text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 0 3px black;
+}
+
+.headerText{
+    margin-top: 10rem;
+    font-size: 40px;
+    color:#14465f
+}
+
+#btnSubmit{
+    background-color:#195877;
+    padding: 10px 25px;
+    color:#a3bcc8;
+    font-size: 24px;
+    margin-bottom: 7rem;
+}
+
+#btnSubmit:hover{
+    background-color:#759aad;
+    color:#195877;
+}
+
+#h3-Col-1{
+    margin: 1rem;
+    margin-top: 4rem;
+    font-size: 36px;
+    color:#164f6b;
+    
+}
+
+#a-Col-1{
+    text-decoration: none;
+    color:#2f6884;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+#a-Col-1:hover{
+    color:#5e8a9f;
+}
+
+#img-Col-1{
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+
+
+.form-floating{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btnForm{
+    margin-bottom: 5rem;
+    background-color:#195877;
+    padding: 10px 25px;
+    color:#a3bcc8;
+    font-size: 24px;
+}
+
+.btnForm:hover{
+    background-color:#759aad;
+    color:#195877;
+}
+
+.iconStyle{
+   color:#467992 ;
+}
+
+.iconText{
+    margin-bottom: 10rem;
+}
+
+
+.footer{
+    padding: 6rem;
+    background-color:#759aad;
+    color:#195877;
+}
